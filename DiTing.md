@@ -16,7 +16,7 @@
 
 如下图：
 
-![客户端埋点](https://raw.githubusercontent.com/nisacy/legendary/master/img1.png)
+![客户端埋点](https://raw.githubusercontent.com/nisacy/legendary/master/0.png)
 
 **其中上报，业务方无感知，并且已经有了集团统一的解决方案：灵犀。**
 
@@ -88,7 +88,7 @@ DiTing是一套客户端声明式的打点框架。
 
 主要解决用户行为采集的问题：
 
-![用户行为采集](https://raw.githubusercontent.com/nisacy/legendary/master/img2.png)
+![用户行为采集](https://raw.githubusercontent.com/nisacy/legendary/master/1.png)
 
 业务方只需要在对应的模块上，绑定相关的上下文，DiTing就会在合适的打点时机，进行相应的埋点操作。
 
