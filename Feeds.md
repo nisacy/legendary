@@ -38,7 +38,7 @@
 
 #### 1.2 首页模块化框架整体设计
 
-首页V9模块化框架包括页面和模块
+首页模块化框架包括页面和模块
 
 页面主要负责模块配置，整个页面的视图主体部分是一个UITableView，所有模块共用这个UITableView来渲染各自的视觉。
 
@@ -50,14 +50,14 @@
 
 ![img](https://km.meituan.net/111124353.png?contentId=100821831&attachmentId=111124354&originUrl=https://km.meituan.net/111124353.png&contentType=2&isDownload=false&token=e0656090dd*141168fcbc2a4463bf461&isNewContent=false&isViewPage=true)
 
-进过V10改版后，我们将Picasso动态化框架融合到首页模块化框架中，提供了两方面能力：
+进过V10更新后，我们将Picasso动态化框架融合到首页模块化框架中，提供了两方面能力：
 
 1. 运行时约定页面行为，可动态修改模块样式
 2. 布局范式可定制，面向交互友好
 
 V10首页模块化框架主要组成部分为：页面、PicassoModule以及PicassoCell，如下图所示：
 
-![img](https://km.meituan.net/111212583.png?contentId=100821831&attachmentId=111212584&originUrl=https://km.meituan.net/111212583.png&contentType=2&isDownload=false&token=e0656090dd*141168fcbc2a4463bf461&isNewContent=false&isViewPage=true)
+![img](https://raw.githubusercontent.com/nisacy/legendary/master/PageModules.png)
 
 PicassoModule将后端Mapi接口返回的JS和业务数据，传递给Cell的PicassoView，通过PicassoView预计算，并根据计算结果渲染模块视图，最后通知页面加载模块
 
